@@ -6,4 +6,5 @@ cache:
     - "node_modules"
 before_script:
   - npm install mocha -g
+  - npm install
   - npm test
